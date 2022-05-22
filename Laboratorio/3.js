@@ -23,7 +23,7 @@ class Galeria extends HTMLElement {
                     <div class="imagen">
                         <img src="/Laboratorio/Imagenes/quito2.jpg" alt="">
                         <div class="overlay">
-                            <h2>Vista nocturna de centro de Quito</h2>
+                            <h2>Vista nocturna del centro de Quito</h2>
                         </div>
                     </div>
                     <div class="imagen">
