@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 class Galeria extends HTMLElement {
     constructor() {
         super();
