@@ -7,11 +7,11 @@ class EncabezadoHeader extends HTMLElement{
       this.innerHTML=`
       <header>
     <nav>
-        <a href="S1.html">INICIO</a>
-        <a href="S2.html">DESCRIPCIÓN</a>
-        <a href="S3.html">NUESTRA GALERIA</a>
-        <a href="S4.html">SUGERENCIAS</a>
-        <a href="S5.html">CONTACTENOS</a>
+        <a href="#">INICIO</a>
+        <a href="#descripcion">DESCRIPCIÓN</a>
+        <a href="#sugerencias">SUGERENCIAS</a>
+        <a href="#galeria">NUESTRA GALERIA</a>
+        <a href="#formulario-contacto">CONTACTENOS</a>
     </nav>
     <section class="textos-header">
         <h1>Lo mejor de| ECUADOR</h1>

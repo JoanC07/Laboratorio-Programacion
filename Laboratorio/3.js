@@ -5,7 +5,7 @@ class Galeria extends HTMLElement {
 
     connectedCallback() {
         this.innerHTML = `
-            <div class="galeria">
+            <div class="galeria" id="galeria">
                 <h1>Lugares emblematicos de Ecuador</h1>
                 <div class="contenedor-imagenes">
                     <div class="imagen">

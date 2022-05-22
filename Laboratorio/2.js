@@ -55,7 +55,7 @@ class Contenido extends HTMLElement {
         }
     </style>
     <center>
-        <div class="contenedor">
+        <div class="contenedor" id="descripcion">
             <center>
                 <img src="Imagenes/img2.png">
                 <div class="contenido">
@@ -70,7 +70,7 @@ class Contenido extends HTMLElement {
                 REGIONES DEL ECUADOR
             </h1>
             <hr>
-            <div class="regiones">
+            <div class="regiones" id="sugerencias">
                 <img src="Imagenes/img3.png">
                 <center>
                     <h1>Region Costera</h1>

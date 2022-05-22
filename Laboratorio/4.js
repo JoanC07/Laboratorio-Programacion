@@ -5,7 +5,7 @@ class formularioContacto extends HTMLElement{
     }
     connectedCallback(){
       this.innerHTML=`
-        <div class="container">
+        <div class="container" id="formulario-contacto">
             <div class="picture-container">
                 <div class="picture">
                     <div class="content-image">
