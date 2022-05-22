@@ -10,11 +10,11 @@ class EncabezadoHeader extends HTMLElement{
          <div class="logo" align="center"><img src="·">
               <nav class="navegation">
                   <ul>
-                      <li><a href="#">HOME</a></li>
-                      <li><a href="#">DESCRIPCION DE CONTENIDO </a></li>
-                      <li><a href="#">PUNTAJE DE EVALUACION </a></li>
-                      <li><a href="#">BIBLIOGRAFIA</a></li>
-                      <li><a href="#">FORMULARIO DE INSCRIPCION</a></li>
+                      <li><a href="#">INICIO</a></li>
+                      <li><a href="#">DESCRIPCION</a></li>
+                      <li><a href="#">NUESTRA GALERIA</a></li>
+                      <li><a href="#">SUGERENCIAS</a></li>
+                      <li><a href="#">CONTACTENOS</a></li>
                   </ul>
               </nav>
           </div>
