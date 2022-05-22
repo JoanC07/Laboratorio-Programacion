@@ -25,7 +25,7 @@ class EncabezadoHeader extends HTMLElement{
     header {
       width: 100%;
       height: 500px;
-      background: #ffffff;
+      background: #fff;
       background: -webkit-linear-gradient(to right, hsla(224, 100%, 67%, 0.459), hsla(224, 83%, 72%, 0.664)), url(Imagenes/portada.jpg);
       background: linear-gradient(to right, hsla(222, 93%, 53%, 0.459), hsla(219, 86%, 75%, 0.664)), url(Imagenes/portada.jpg);
       background-size: cover;
