@@ -22,10 +22,10 @@ class formularioContacto extends HTMLElement{
             </div>
             <div class="contact-form-container">
             <form class="contact-form">
-                <span class="form-header">Contact us</span>
-                <input type="email" class="email-input" placeholder="Email" />
-                <textarea required name="feedback" cols="30" rows="5" class="message" placeholder="Message..."></textarea>
-                <button class="submit" type="submit">Submit</button>
+                <span class="form-header">Contáctate con nosotros</span>
+                <input type="email" class="email-input" placeholder="Correo electrónico" />
+                <textarea required name="feedback" cols="30" rows="5" class="message" placeholder="Mensaje..."></textarea>
+                <button class="submit" type="submit">Enviar</button>
             </form>
             </div>
         </div>
