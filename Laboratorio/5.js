@@ -1,16 +1,16 @@
-class FooterLM extends HTMLElement{
+class FooterLM extends HTMLElement {
     //Aqui iria el codigo del elemento
-    constructor(){
-      super();
+    constructor() {
+        super();
     }
-    connectedCallback(){
-      this.innerHTML=`
+    connectedCallback() {
+        this.innerHTML = `
       <footer>
 
         <div class="container__footer">
             <div class="box__footer">
                 <div class="logo">
-                    <img src="/Laboratorio/Imagenes/LogoEcuador.png" alt="">
+                    <img src="Imagenes/LogoEcuador.png" alt="">
                 </div>
                 <div class="terms">
                     <p>Turismo Ecuador, podemos realizar actividades turísticas con deportes de aventura (buceo,turismo gastronómico, turismo fiestas religiosas, fiestas populares, 
@@ -51,7 +51,7 @@ class FooterLM extends HTMLElement{
     footer{
       width: 100%;
       padding: 50px 0px;
-      background-image: url(/Laboratorio/Imagenes/imagen_footer.jpg);
+      background-image: url(Imagenes/imagen_footer.jpg);
       background-size: cover;
       
 
@@ -70,6 +70,7 @@ class FooterLM extends HTMLElement{
       display: flex;
       flex-direction: column;
       padding: 40px;
+      font-family: Arial, Helvetica, sans-serif;
   }
   
   .box__footer .logo img{
@@ -82,18 +83,21 @@ class FooterLM extends HTMLElement{
       font-weight: 500;
       color:#7a7a7a;
       font-size: 18px;
+      font-family: Arial, Helvetica, sans-serif;
   }
   
   .box__footer h2{
       margin-bottom: 30px;
       color: rgb(46, 115, 212);
       font-weight: 700;
+      font-family: Arial, Helvetica, sans-serif;
   }
   
   .box__footer a{
       margin-top: 10px;
       color: #7a7a7a;
       font-weight: 600;
+      font-family: Arial, Helvetica, sans-serif;
   }
   
   .box__copyright{
@@ -106,6 +110,7 @@ class FooterLM extends HTMLElement{
   .box__copyright p{
       margin-top: 20px;
       color: skyeblue;
+      font-family: Arial, Helvetica, sans-serif;
   }
   
   .box__copyright hr{
@@ -118,5 +123,5 @@ class FooterLM extends HTMLElement{
 
       `;
     }
-  }
-  window.customElements.define('footer-lm',FooterLM);
+}
+window.customElements.define('footer-lm', FooterLM);
