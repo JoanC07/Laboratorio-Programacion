@@ -1,10 +1,10 @@
-class formularioContacto extends HTMLElement{
+class formularioContacto extends HTMLElement {
     //Aqui iria el codigo del elemento
-    constructor(){
-      super();
+    constructor() {
+        super();
     }
-    connectedCallback(){
-      this.innerHTML=`
+    connectedCallback() {
+        this.innerHTML = `
         <div class="container" id="formulario-contacto">
             <div class="picture-container">
                 <div class="picture">
@@ -82,6 +82,7 @@ class formularioContacto extends HTMLElement{
                 font-size: 2em;
                 font-weight: 700;
                 align-self: flex-start;
+                font-family: Arial, Helvetica, sans-serif;
             }
 
             .email-input {
@@ -217,5 +218,5 @@ class formularioContacto extends HTMLElement{
         </style>
       `;
     }
-  }
-  window.customElements.define('formulario-contacto',formularioContacto);
+}
+window.customElements.define('formulario-contacto', formularioContacto);
