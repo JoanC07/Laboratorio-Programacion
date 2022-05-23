@@ -1,4 +1,4 @@
-class SellLabel extends HTMLElement{
+class FooterLM extends HTMLElement{
     //Aqui iria el codigo del elemento
     constructor(){
       super();
@@ -9,4 +9,4 @@ class SellLabel extends HTMLElement{
       `;
     }
   }
-  window.customElements.define('sell-label',SellLabel);
+  window.customElements.define('footer-lm',FooterLM);
