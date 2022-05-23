@@ -9,43 +9,43 @@ class Galeria extends HTMLElement {
                 <h1>Lugares emblematicos de Ecuador</h1>
                 <div class="contenedor-imagenes">
                     <div class="imagen">
-                        <img src="/Laboratorio/Imagenes/cotopaxi.jpg" alt="">
+                        <img src="Imagenes/cotopaxi.jpg" alt="">
                         <div class="overlay">
                             <h2>Volcán Cotopaxi</h2>
                         </div>
                     </div>
                      <div class="imagen">
-                        <img src="/Laboratorio/Imagenes/Quito.jpg" alt="">
+                        <img src="Imagenes/Quito.jpg" alt="">
                         <div class="overlay">
                             <h2>Catedral de Quito</h2>
                         </div>
                     </div>
                     <div class="imagen">
-                        <img src="/Laboratorio/Imagenes/quito2.jpg" alt="">
+                        <img src="Imagenes/quito2.jpg" alt="">
                         <div class="overlay">
                             <h2>Vista nocturna del centro de Quito</h2>
                         </div>
                     </div>
                     <div class="imagen">
-                        <img src="/Laboratorio/Imagenes/Ecuador.jpg" alt="">
+                        <img src="Imagenes/Ecuador.jpg" alt="">
                         <div class="overlay">
                             <h2>Sendero del teleferico en Quito</h2>
                         </div>
                     </div>
                     <div class="imagen">
-                        <img src="/Laboratorio/Imagenes/sierra1.jpg" alt="">
+                        <img src="Imagenes/sierra1.jpg" alt="">
                         <div class="overlay">
                             <h2>Pailón del Diablo</h2>
                         </div>
                     </div>
                     <div class="imagen">
-                        <img src="/Laboratorio/Imagenes/sierra2.jpg" alt="">
+                        <img src="Imagenes/sierra2.jpg" alt="">
                         <div class="overlay">
                             <h2>Malecón 2000 - Guayaquil</h2>
                         </div>
                     </div>
                     <div class="imagen">
-                        <img src="/Laboratorio/Imagenes/playa.jpg" alt="">
+                        <img src="Imagenes/playa.jpg" alt="">
                         <div class="overlay">
                             <h2>Playa de San Lorenzo - Manabí</h2>
                         </div>

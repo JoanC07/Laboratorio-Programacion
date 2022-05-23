@@ -1,10 +1,10 @@
-class EncabezadoHeader extends HTMLElement{
+class EncabezadoHeader extends HTMLElement {
     //Aqui iria el codigo del elemento
-    constructor(){
-      super();
+    constructor() {
+        super();
     }
-    connectedCallback(){
-      this.innerHTML=`
+    connectedCallback() {
+        this.innerHTML = `
       <header>
     <nav>
         <a href="#">INICIO</a>
@@ -43,6 +43,7 @@ class EncabezadoHeader extends HTMLElement{
       font-weight: 300;
       text-decoration: none;
       margin-right: 10px;
+      font-family: Arial, Helvetica, sans-serif;
   }
   
   nav > a:hover{
@@ -68,10 +69,11 @@ class EncabezadoHeader extends HTMLElement{
       font-size: 30px;
       font-weight: 300;
       color:#fff;
+      font-family: Arial, Helvetica, sans-serif;
   }
     
   </style>
       `;
     }
-  }
-  window.customElements.define('encabezado-header',EncabezadoHeader);
+}
+window.customElements.define('encabezado-header', EncabezadoHeader);
