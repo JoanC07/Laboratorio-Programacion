@@ -4,6 +4,7 @@ class FooterLM extends HTMLElement {
         super();
     }
     connectedCallback() {
+        const texto = 'Turismo Ecuador, podemos realizar actividades turísticas con deportes de aventura (buceo,turismo gastronómico, turismo fiestas religiosas, fiestas populares, fiestas cívicas, cultura y arte, sitios naturales, turismo en las comunidades.';
         this.innerHTML = `
       <footer>
 
@@ -13,8 +14,7 @@ class FooterLM extends HTMLElement {
                     <img src="Imagenes/LogoEcuador.png" alt="">
                 </div>
                 <div class="terms">
-                    <p>Turismo Ecuador, podemos realizar actividades turísticas con deportes de aventura (buceo,turismo gastronómico, turismo fiestas religiosas, fiestas populares, 
-                      fiestas cívicas, cultura y arte, sitios naturales, turismo en las comunidades.</p>
+                    <p>${texto}</p>
                 </div>
             </div>
             <div class="box__footer">
