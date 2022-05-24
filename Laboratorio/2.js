@@ -1,9 +1,11 @@
 class Contenido extends HTMLElement {
     constructor() {
         super();
+
     }
 
     connectedCallback() {
+        this.cambio = true;
         this.innerHTML = `
         <style>
         .contenedor {
@@ -119,6 +121,32 @@ class Contenido extends HTMLElement {
 
         `
     }
+
+}
+
+class Saludo extends HTMLElement {
+    constructor() {
+        super();
+        this.saludo = console.log("Hola, como estás");
+        this.cambio = false;
+    }
+    connectedCallback() {
+        this.cambio = true;
+    }
+    attributeChangedCallback(name, viejoValor, nuevoValor) {
+        if (name === "name") {
+            this.saludo = alert(`Hola, ${nuevoValor}. Bienvenido a nuestra Página `);
+        }
+        if (this.cambio) {
+            alert(this.saludo);
+        }
+    }
+    static get observedAttributes() {
+        return ["name"];
+    }
+
+
 }
 
 window.customElements.define("contenido-index", Contenido);
+window.customElements.define("saludo-basico", Saludo);
