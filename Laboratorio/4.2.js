@@ -2,29 +2,23 @@ class MesageAnimation extends HTMLElement{
     //Aqui iria el codigo del elemento
 
     constructor(){
-      super();
-
+        super();
     }
-
     connectedCallback(){
-      this.innerHTML= ` 
+        this.innerHTML= ` 
                     <div class="content-image">
                         <div class="wrapper">
                             <div class="lid one"></div>
                             <div class="lid two"></div>
                             <div class="envelope"></div>
                             <div class="letter">
-                                <p id="form-message">Gracias por su comentario</p>
+                                <p>Gracias por su comentario</p>
                             </div>
                         </div>
-                        </br></br>
-                        <center>
-                            <button>Cambiar Texto</button>
-                        </center>
                     </div>
-                    <style>
-                    
-            // Animation
+
+            <style>        
+
             .content-image{
                 transform: scale(0.2)
                }      
@@ -52,7 +46,6 @@ class MesageAnimation extends HTMLElement{
             transition: transform 0.25s linear;
             }
 
-            /* Lid when closed */
             .lid.one {
             border-top: 100px solid #658ced;
             transform: rotateX(0deg);
@@ -60,7 +53,6 @@ class MesageAnimation extends HTMLElement{
             transition-delay: 0.75s;
             }
 
-            /* Lid when opened */
             .lid.two {
             border-top: 100px solid #3760C9;
             transform: rotateX(90deg);
