@@ -5,7 +5,6 @@ class Contenido extends HTMLElement {
     }
 
     connectedCallback() {
-        this.cambio = true;
         this.innerHTML = `
         <style>
         .contenedor {
