@@ -1,8 +1,11 @@
 class MesageAnimation extends HTMLElement{
     //Aqui iria el codigo del elemento
+
     constructor(){
       super();
+
     }
+
     connectedCallback(){
       this.innerHTML= ` 
                     <div class="content-image">
@@ -11,9 +14,13 @@ class MesageAnimation extends HTMLElement{
                             <div class="lid two"></div>
                             <div class="envelope"></div>
                             <div class="letter">
-                                <p>Gracias por su comentario</p>
+                                <p id="form-message">Gracias por su comentario</p>
                             </div>
                         </div>
+                        </br></br>
+                        <center>
+                            <button>Cambiar Texto</button>
+                        </center>
                     </div>
                     <style>
                     
